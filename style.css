@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body, html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: hsl(243, 87%, 12%);
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.ul1{
+    width: 50%;
+    padding: 0;
+}
+.ul1 img{
+    width: 20%;
+}
+.ul2{
+    display: flex;
+    padding: 0;
+    align-items: flex-end;
+    width: 50%;
+    justify-content: flex-end;
+    gap: 2rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.ul2 a{
+    color: hsl(243, 87%, 12%);
+}
+.ul2 a:hover{
+    color: hsl(224, 93%, 58%);
+    text-decoration: underline solid hsl(170, 45%, 43%);
+    transition: 150ms ease-in-out;
+}
+.img1{
+    width: 50%;
+}
+.img1 img{
+    width: 100%;
+}
+header{
+    margin: 4.5rem 0;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.deets{
+    width: 50%;
+    margin-right: 7.5rem;
+}
+.serve1{
+    margin-bottom: 7.5rem;
+}
+.ill{
+    width: 50%;
+}
+.ill img{
+    width: 100%
+}
+.email{
+    width: 35%;
+    padding: 0.5rem 0;
+}
+.background img{
+    width: 100%;
+}
+.p1{
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    color: hsl(243, 87%, 12%);
+}
+.serve2{
+    background-color: #f8f8fe;
+    padding-bottom: 4.5rem;
+}
+.retro-contain{
+    background-color: hsl(238, 22%, 44%);
+}
+.retro{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.retro-info{
+    width: 50%;
+}
+.form5{
+    width: 50%;
+    padding: 8rem;
+}
+.btn{
+    padding: 0.65rem 3rem;
+    border-radius: 0.2rem;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%) ;
+    cursor: pointer;
+    transition: 300ms ease-in;
+}
+.btn:hover{
+    color: black;
+    background-color: hsl(170, 45%, 43%);
+    transition: 300ms ease-out;
+}
+::placeholder{
+    color: hsl(0, 0%, 75%);
+}
+.form5 form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.btn2{
+    width: 60%;
+}
+.background{
+    transform: translateY(5px);
+}
+.mobile-back{
+    display: none;
+}
+footer{
+    background-color: hsl(243, 87%, 12%);
+}
+.foot1{
+    width: 90%;
+    margin: auto;
+}
+.foot-img{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+.footer-contacts{
+    display: flex;
+    gap: 15rem;
+    padding-bottom: 5rem;
+}
+.reach ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.reach a{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: hsl(240, 75%, 98%);
+    font-size: 1.2rem;
+}
+.icon{
+    padding-right: 1rem;
+}
+.socials ul{
+    display: flex;
+    gap: 1.5rem;
+}
+.reach a:hover{
+    color: hsl(238, 22%, 44%);
+}
+h3{
+    color:hsl(240, 75%, 98%) ;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.retro-info p{
+    color: hsl(240, 75%, 98%);
+    padding-right: 3rem;
+}
+.email2{
+    width: 70%;
+    padding: 0.75rem 0;
+    border-radius: 0.2rem;
+    border: transparent;
+}
+article{
+    background-color: hsl(0, 0%, 85%) ;
+    width: 50%;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: transparent;
+    box-shadow: 1px 1px 6px  black;
+    margin-top: 2rem;
+
+}
+.img0 img{
+    border-radius: 50%;
+    width: 10%;
+    transform: translateY(0.7rem);
+}
+.img0{
+    padding-right: 0.5rem;
+}
+article p{
+    font-size: 0.8rem;
+    color: hsl(243, 87%, 12%);
+}
+.bold{
+    font-weight: bold;
+}
+article > img{
+    width: 7.5%;
+}
+.link{
+    text-decoration: underline 2px hsl(170, 45%, 43%);
+}
+.link a{
+    font-family: "Open Sans", sans-serif;
+    color: hsl(170, 45%, 43%);
+}
+.img99 img{
+    transform: translateY(0.2rem);
+    padding-left: 0.2rem;
+}
+h2{
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+    color: hsl(243, 87%, 12%);
+}
+.detail2 p{
+    color: hsl(243, 87%, 12%);
+}
+@media  (min-width:319px) and (max-width:768px) {
+    h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 3rem;
+    }
+    p{
+        text-align: center;
+    }
+    article{
+        width: 75%;
+        padding: 1rem;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    header{
+        margin: 1rem 0;
+    }
+    .nav{
+        width: 85%;
+    }
+    .ul1{
+        width: 25%;
+    }
+    .ul1 img{
+        width: 100%;
+    }
+    .ul2{
+        width: 75%;
+        font-size: 1rem;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .service{
+        flex-direction: column-reverse;
+        width: 85%;
+    }
+    .ill{
+        width: 100%;
+    }
+    .deets{
+        width: 100%;
+        margin: 0;
+    }
+    .p1{
+        margin-right: 0;
+    }
+    .email{
+        width: 100%;
+    }
+    .form2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .pc-back{
+        display: none;
+    }
+    .mobile-back{
+        display: block;
+    }
+    .retro{
+        flex-direction: column;
+        width: 85%;
+    }
+    .retro-info{
+        width: 100%;
+    }
+    .form5{
+        width: 100%;
+        padding: 0;
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+    }
+    .retro-info p{
+        padding: 0;
+    }
+    .email2{
+        width: 100%;
+    }
+    .btn2{
+        width: 100%;
+    }
+    .form5 form{
+        gap: 1rem;
+    }
+    .foot1{
+        width: 85%;
+    }
+    .footer-contacts{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .socials ul{
+        justify-content: center;
+        padding: 0;
+    }
+}
+@media (min-width:481px) and  (max-width:1200px) {
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(240, 75%, 98%);
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
